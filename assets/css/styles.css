@@ -1,0 +1,97 @@
+@font-face{font-family:"EB Garamond";font-weight:normal;font-style:normal;src:url("../font/eb-garamond/EBGaramond-webfont.eot");src:url("../font/eb-garamond/EBGaramond-webfont.eot?#iefix") format("embedded-opentype"),url("../font/eb-garamond/EBGaramond-webfont.woff") format("woff"),url("../font/eb-garamond/EBGaramond-webfont.ttf") format("truetype"),url("../font/eb-garamond/EBGaramond-webfont.svg#EBGaramondRegular") format("svg")}
+body{margin:3em 0;font:100%;line-height:1.3125;background:url("../img/bg-cover.jpg") repeat left top}
+nav.previous,nav.next{position:absolute;top:19.75em;}
+nav.previous a,nav.next a{text-decoration:none;font-family:'Arial Narrow',Helvetica,sans-serif;font-size:3em;color:#e6c68c}
+nav.previous{left:0}
+nav.next{right:0;}
+nav.next.front{right:16em}
+h1{font-family:Arial,Helvetica,sans-serif;font-size:1.25em;letter-spacing:.1875em;word-spacing:.1875em;text-align:center;}
+h1 a{color:#e6c68c;text-decoration:none;}
+h1 a:hover{text-decoration:underline}
+h2{margin:1em 0 .5em 0;font-family:'Arial Black',Helvetica,sans-serif;font-size:.6875em;letter-spacing:.125em;word-spacing:.125em;color:#333;text-align:center;}
+h2.top{margin-top:0}
+p{margin:0;font-family:"EB Garamond",serif;font-size:1em;color:#505050;letter-spacing:.0625em;word-spacing:.0625em;text-align:justify;text-indent:1.125em;}
+p.noindent{text-indent:inherit}
+p.heading{margin:.25em 0 0 0;text-indent:0;}
+p.heading span{font-family:'Arial Narrow',Helvetica,sans-serif;font-size:.9375em;font-weight:bolder}
+footer{margin:1em auto 0 auto;}
+footer p{text-align:center;font-family:'Arial Narrow',Helvetica,sans-serif;font-size:.8125em;letter-spacing:.1875em;text-indent:0;color:#e6c68c}
+footer a{color:#e6c68c}
+.wrap{margin:0 auto;position:relative;width:72em}
+.content,.content-cover{display:table;margin:0 auto;overflow:hidden}
+.content{background:url("../img/bg-page.jpg") repeat left top}
+.page{position:relative;float:left;width:25em;height:35em;border:4em solid transparent;}
+.page.separator{border-right:.0625em solid #ccc;padding:0 3.9375em 0 0}
+.page img{display:block}
+.pg{margin:.5em 0 0 0;font-family:'Arial Narrow',Helvetica,sans-serif;font-size:1.125em;font-weight:bold;text-indent:0}
+.left .pg{text-align:left}
+.right .pg{text-align:right}
+.content-cover{border:.0625em solid #e6c68c}
+.pg-front img{margin:3em 0 7em 6em}
+.pg-front h2{font-family:Arial,Helvetica,sans-serif;font-size:1.25em;color:#e6c68c}
+.pg-front h1{margin:1em 0 0 0;font-family:'Arial Narrow',Helvetica,sans-serif;font-size:3em;color:#e6c68c}
+.pg-i .disclaimer{margin:8em 0 0 2em;width:20em;}
+.pg-i .disclaimer p{color:#2c4780;line-height:1.5;text-align:center;font-style:italic}
+.pg-i .publisher{margin:17em 0 0 0;}
+.pg-i .publisher p{color:#2c4780;text-align:center;font-size:.6875em;line-height:2.25;letter-spacing:.0625em;word-spacing:.1875em;}
+.pg-i .publisher p.intro{margin:0 0 .5em 0;font-style:italic;font-size:.875em;word-spacing:0}
+.pg-ii{width:23em;padding:4em 4em 4em 0;border:0 solid transparent;border-left:6em solid rgba(102,102,102,0.3);}
+.pg-ii .title{margin:5em 0 0 5em;}
+.pg-ii .title p{font-family:Arial,Helvetica,sans-serif;font-size:1em;font-weight:bold;letter-spacing:.125em;word-spacing:.125em;text-indent:0;color:#333}
+.pg-ii .title h1{margin:.3125em 0 0 0;text-align:left;font-family:'Arial Narrow',Helvetica,sans-serif;font-size:2.125em}
+.pg-ii .subtitle{margin:22em 0 0 0;}
+.pg-ii .subtitle img{margin:-5.5em 0 0 -3.5em}
+.pg-ii .subtitle h2{margin:0 0 1em 7em;font-family:'Arial Black',Helvetica,sans-serif;font-size:.6875em;letter-spacing:.125em;word-spacing:.125em;color:#333;text-align:left}
+.pg-iii img{position:absolute;top:-3em;left:-2em}
+.pg-iii p{margin:34em 0 0 0;text-align:center}
+.pg-iv h1{color:#6fcf48;font-family:'Arial Narrow',Helvetica,sans-serif;font-size:1.1875em;letter-spacing:.25em;word-spacing:.3125em}
+.pg-iv h2{margin:3em 0 1.25em 0;font-family:'Arial Black',Helvetica,sans-serif;font-size:1.0625em;letter-spacing:.25em}
+.pg-iv ul.toc{width:25em;margin:0 auto;padding:0;list-style:none;}
+.pg-iv ul.toc li{margin:0;line-height:1.375;text-align:right;background:url("../img/dotted.png") repeat-x right .9375em;}
+.pg-iv ul.toc li a{text-decoration:none;color:inherit}
+.pg-iv ul.toc li span,.pg-iv ul.toc li em{float:left;font-family:"EB Garamond",serif;font-size:1.125em;word-spacing:.0625em;padding:0 .5em 0 0;background:#fbfbea}
+.pg-iv ul.toc li em{display:inline-block;width:1em;float:none;padding:0;font-style:inherit}
+.pg-v{border:4em solid rgba(111,207,72,0.8);}
+.pg-v h2{margin:3em 0 1em 0;font-family:'Arial Narrow',Helvetica,sans-serif;font-size:1.75em;letter-spacing:.4em}
+.pg-v blockquote{text-align:center;margin:0 0 2em 0;}
+.pg-v blockquote.maori{font-size:1.25em;letter-spacing:.125em;}
+.pg-v blockquote.maori cite{font-size:.7em;font-style:italic;letter-spacing:normal;padding:0 0 0 4em}
+.pg-v blockquote.english{font-size:1em;font-style:italic}
+.pg-1 img{margin:0 0 .75em 0}
+.pg-5 img{margin:0 0 1.25em 0}
+.pg-6 img{margin:.5em auto 0 auto}
+.pg-8 img{margin:1em 0 0 0}
+.pg-11 img{margin:1.875em auto}
+.pg-14 img,.pg-15 img{position:absolute;top:-4em;left:-4em}
+.pg-14 p,.pg-15 p{margin:27em 0 0 0;font-size:.9375em}
+.pg-14 span.dropcap,.pg-15 span.dropcap{float:left;font-size:3em;line-height:.5em;padding:.125em 0 0 0;color:#6fcf48}
+.pg-17 img{margin:1em 0 1em 0}
+.pg-20 img,.pg-21 img{position:absolute;top:-4em;left:-4em}
+.pg-22 h2{margin:0 0 .5em 0}
+.pg-27 img{margin:1em 0 0 0}
+.pg-29 img{margin:0 0 2em 0}
+.pg-32 img,.pg-33 img{position:absolute;top:0;left:-2em}
+.pg-35 img{margin:0 0 1.5em 0}
+.pg-35 .glossary ul,.pg-36 .glossary ul,.pg-37 .glossary ul,.pg-38 .glossary ul,.pg-39 .glossary ul{margin:0;padding:0;width:11.5em;list-style:none;float:left;}
+.pg-35 .glossary ul.right,.pg-36 .glossary ul.right,.pg-37 .glossary ul.right,.pg-38 .glossary ul.right,.pg-39 .glossary ul.right{padding:0 0 0 2em}
+.pg-35 .glossary ul li,.pg-36 .glossary ul li,.pg-37 .glossary ul li,.pg-38 .glossary ul li,.pg-39 .glossary ul li{margin:0 0 0 1em;font-family:"EB Garamond",serif;font-size:.875em;line-height:1.375;text-indent:-1em;}
+.pg-35 .glossary ul li.hang,.pg-36 .glossary ul li.hang,.pg-37 .glossary ul li.hang,.pg-38 .glossary ul li.hang,.pg-39 .glossary ul li.hang{text-indent:0}
+.pg-35 .glossary br,.pg-36 .glossary br,.pg-37 .glossary br,.pg-38 .glossary br,.pg-39 .glossary br{clear:left}
+.pg-40 img,.pg-41 img{position:absolute;top:0;left:-1em}
+.pg-42 img{margin:3em auto 0 auto}
+.pg-43 img{position:absolute;top:-4em;left:-4em}
+.pg-43 p{margin:27.5em 0 0 0;font-size:.9375em}
+.pg-43 span.dropcap{float:left;font-size:3em;line-height:.5em;padding:.1875em .0625em 0 0}
+.pg-44 h2{margin:0;padding:0 0 .25em 0;border-bottom:.125em solid #6fcf48}
+.pg-44 p{margin:60em 0 0 0;font-family:Arial,Helvetica,sans-serif;font-size:.375em;text-align:center;color:#505050}
+.pg-45 a{color:inherit}
+@media only screen and (max-width: 72em){header,footer,.wrap{width:39em}
+header{margin:0 auto}
+nav.previous,nav.next{top:40.75em;}
+nav.previous.next,nav.next.next{right:0;}
+nav.previous.next.front,nav.next.next.front{top:20em}
+.content,.content-cover{display:block;width:33em}
+.page.separator{border-right:4em solid transparent;border-bottom:.0625em solid #ccc;padding:0 0 3.9375em 0}
+.left .pg,.right .pg{text-align:center}
+.pg-15 img,.pg-43 img{position:absolute;top:-4em;left:-4em}
+}
